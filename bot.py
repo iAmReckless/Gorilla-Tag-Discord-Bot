@@ -20,7 +20,7 @@ bot = commands.Bot(command_prefix='!')
 async def bot_activity():
   await bot.wait_until_ready()
   while True:
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="Loving Vicky ❤️"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="Gorilla Tag Discord Bot By Reckless#2023"))
     await asyncio.sleep(10)
 
 #@bot.event
